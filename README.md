@@ -26,8 +26,4 @@ After cloning this repository, you can choose to clone the client repository int
 
 ## A note on some files in this repo
 
-- `.babelrc` sets up babel to be able to properly parse and process React components into valid es5
-
 - `.eslintrc.js` is simply some rules that the linter follows when going through your code to ensure consistent code standards across contributers
-
-- `webpack.config.js` sets up webpack, which is a utility that is (currently) used to run babel and provide a development server. Webpack also provides us the ability to 'proxy' our api development server so that api calls can be made on the same port that our client side development server is running.
